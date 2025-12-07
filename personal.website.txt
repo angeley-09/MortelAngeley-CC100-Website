@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta chaarset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Personal Website</title>
+	<style>
+	    /* General styles */
+	    body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		line-height: 1.6;
+		color: #333;
+		background-color: #FFC9C9;
+	   }
+
+	   /* Header styles */
+	   header {
+		background: #333;
+		color: #FFC9C9;
+		padding: 10px 0;
+		text-align: center;
+	   }
+
+	   header h1 {
+		margin: 0;
+		font-size: 2.5em;
+	   }
+
+	   /* Navigation bar */
+	   nav ul {
+	       list-style: none;
+	       padding: 0;
+	       display: flex;
+	       justify-content: center;
+	       background: #444;
+	       margin: 0;
+	  }
+
+	  nav ul li {
+	      margin: 0 15px;
+	  }
+
+	  nav ul li a {
+	      text-decoration: none;
+	      color: #F8C8DC;
+	      font-weight: bold;
+	      padding: 10px;
+	      display: block;ss
+	  }
+
+	  nav ul li a:hover {
+	      background: #FFC9C9;
+	      border-radius: 5px;
+	  }
+
+	  /* Section styles */
+	  .container {
+	      max-width: 1100px;
+	      margin: auto;
+	      overflow: hidden;
+	      padding: 20px;
+	 }
+
+	 section {
+	     margin: 20px 0;
+	     background: #FFA2A2;
+	     padding: 20px;
+    	     border-radius: 5px;
+	     box-shadow: 0 2px 5px rgba (0, 0, 0, 0.1);
+	}
+
+	section h2 {
+	    color: #0A0A0A;
+	    margin-top: 0;
+	}
+
+.solid {
+  width: 400px;
+  height: 380;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+.family {
+  width: 400px;
+  height: 380;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+
+}
+
+.field trip pic {
+  width: 400px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+}
+
+.field trip pic {
+  width: 400px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+}
+
+.bsit pic {
+  width: 400px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.bsit section {
+  width: 400px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+	/* Footer styles */
+	footer {
+	    text-align: center;
+	    padding: 10px;
+	    background: #f23f66;
+	    color: #21191e;
+	    margin-top: 20px;
+	}
+
+	footer p {
+	    margin: 0;
+	}
+    </style>
+</head>
+<body>
+    <header>
+	<h1>Welcome To My Webpage</h1>
+	<p>Get to know about me</p>
+    </header>
+    <nav>
+	<ul>
+	    <li><a href="about">About</a></li>
+	    <li><a href="portfolio">Portfolio</a></li>
+	    <li><a href="contact">Contact</a></li>
+    </nav>
+    <main class="container">
+	<section id="about">
+<fieldset>
+	    <h2>About Me</h2>
+	<img src="Pic 2.jpg"alt="Pic"class="pic">
+	    <p>Hello! I'm Angeley Mortel 19yrs old currently taking the course of BSIT in BSU Balayan Campus. I love dancing and singing with my father, i also love playing badminton and watched any movies.</p>
+	    <p2>Thanks for visiting my page!</p2>
+
+</fieldset>
+	</section>
+
+
+	<section is="portfolio">
+<fieldset>
+	    <h2>My Portfolio</h2>
+	    <p>Here are some of the moments:</p>
+	    <ul>
+		<li>Memories 1 - With My Senior High Classmates And Family</li>
+		<img src="SOLID PARS.jpg"alt="Solid"class="solid">
+		<img src="FAMILY PIC.jpg"alt="Family"class="family">
+
+		<li>Memories 2 - Field Trip 1st year Senior High</li>
+		<img src="FIELD TRIP PIC 1.jpg"alt="Field Trip Pic"class="field trip pic">
+		<img src="FIELD TRIP PIC 4.jpg"alt="Field Trip Pic"class="field trip pic">
+
+		<li>Memories 3 - College Friends</li>
+		<img src="BSIT PIC 2.jpg" alt="Bsit Pic" class="bsit pic">
+		<img src="BSIT SECTION C.jpg" alt="Bsit Section" class="bsit section">
+	    </ul>
+</fieldset>
+	</section>
+	<section id="contact">
+
+<fieldset>
+	     <h2>Contact Me</h2>
+	     <p>If you'd like to get in touch, feel free to reach out via email: <a
+href="mailto:your-angeleymortel@gmail.com">your-angeleymortel@gmail.com</a></p>
+	     
+</fieldset>
+	</section>
+    </main>
+    <footer>
+	<p>&copy; 2025 Angeley Mortel Memories. All rights reserved.</p>
+</body>
+</html>
